@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #252525;
+}
+
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: #141414; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #000000;
+    text-align: center;
+}
+
+.card h1 {
+    color: rgb(255, 255, 255);
+}
+
+.social-buttons {
+    margin-top: 30px;
+}
+
+.social-buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #303030;
+    transition: background-color 0.3s;
+    position: relative; /* Position relative pour les tooltips */
+}
+
+.social-buttons a:hover {
+    background-color: #707070;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #303030;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #707070;
+}
+
